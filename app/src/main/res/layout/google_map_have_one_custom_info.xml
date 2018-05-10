@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bubble">
+    <!--디자인5-5.스니펫-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/hom_textview_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/common_google_signin_btn_text_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hom_textview_name"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/common_google_signin_btn_text_light"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

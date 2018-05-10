@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/match_success"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/success"
+            android:id="@+id/imageView"
+            android:layout_width="50dp" />
+
+        <TextView
+            android:text="매칭 성공!"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:text="성별"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/textView8" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:layout_width="20dp" />
+
+                <TextView
+                    android:text="나이"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_span="2"
+                    android:id="@+id/textView4" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16" />
+
+                <TextView
+                    android:text="닉네임"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/textView9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:text="남자"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/textView_gender" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+                <TextView
+                    android:text="20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/textView_age" />
+
+                <TextView
+                    android:text="세"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:id="@+id/textView18" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17" />
+
+                <TextView
+                    android:text="닉네임"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/textView_nickname" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="40dp"
+                android:id="@+id/call">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/phone"
+                    android:id="@+id/imageView3"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text=" 전화하기"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/cancel">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/cancel"
+                    android:id="@+id/imageView6"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text=" 취소"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
